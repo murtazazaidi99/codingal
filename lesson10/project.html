@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced selector,psuedo class and psuedo element</title>
+    <style>
+        input[types="text"]{
+            border: 6px solid red;
+        }
+        .class2>p{
+            color:crimson
+        }
+        h3+h2{
+            color: yellowgreen;
+        }
+        .class2:hower{
+            background-color: yellowgreen;
+        }
+        li:nth-child(6){
+            background-color: rgba(14, 63, 239, 0.929);
+        }
+        span:not(.html){
+            color: tomato;
+        }
+        .j::before{
+            content: 🥰;
+        }
+        .mj::after{
+            content: 😘;
+        }
+        .mj::first-letter{
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text">
+    <input type="number">
+
+    <div class="class1">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, rem.</p>
+    </div>
+    <h3>Lorem ipsum dolor sit amet.</h3>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus?</p>
+    <ul>
+       <li>pineapple</li>
+       <li>cheery</li>
+       <li>banana</li>
+       <li>pomegranate vine</li>
+       <li>peach</li>
+       <li>plum</li>
+       <li>strawberry</li>
+       <li>fig</li>
+    </ul>
+    <span class="hi">Lorem ipsum dolor sit amet consectetur.</span>
+    <br>
+    <span class="hihi">Lorem ipsum dolor, sit amet consectetur adipisicing.</span>
+    <br>
+    <span class="hihi">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+    <br>
+    <span class="hihi">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+    <p class="j">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p class="mj">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+</body>
+</html>
