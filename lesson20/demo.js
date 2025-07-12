@@ -14,6 +14,9 @@ function sum(x,y,z){
     var result=x+y+z
     console.log(result)
 }
+
+console.log("refrencing  the local variable of function" , result)
+
 sum(12,14,16)
 sum(1,3,5)
 
