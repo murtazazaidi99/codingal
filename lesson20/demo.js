@@ -1,6 +1,6 @@
 function gotoplay(){
     console.log("hi sir good morning can i go to play cricket")
-    console.log("please sir,please me go i will comebackon time")
+    console.log("please sir,please me go i will comeback on time")
 }
 gotoplay()
 gotoplay()
