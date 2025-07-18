@@ -24,4 +24,10 @@ var day =2
     case 1:
     console.log("today is sunday")
     break;
+    case 2:
+      console.log("today is monday")
+      break;
+      case 3:
+        console.log("today is tuesday")
+        break;
  }
