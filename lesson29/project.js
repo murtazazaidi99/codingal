@@ -14,12 +14,12 @@
 console.log("starting")
 setTimeout(()=>{
     console.log("work done,yehhoo")
-},2000)
+},6000)
 
 console.log("end")
 
 var p=new Promise((resolve,reject)=>{
-    setTimeout(()=>{resolve("helicopter finnaly bought")},4000)
+    setTimeout(()=>{resolve(" finnaly i won the match ")},8000)
 })
 
-p.then((data)=>console.log(data)).catch(err=>console.log("opps you were not buy the", err))
+p.then((data)=>console.log(data)).catch(err=>console.log("opps you were not win", err))
