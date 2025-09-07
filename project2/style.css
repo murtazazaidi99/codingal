@@ -1,7 +1,7 @@
 .Calculator{
     margin: 230px auto 0px auto;
     background-color:white;
-    width: 450px;
+    width: 490px;
     padding: 10px;
     border-radius: 5px;
 }
@@ -23,7 +23,6 @@
     gap: 10px;;
     justify-content: center;
 }
-
 .operator,.number{
     width: 90px; ;
 }
