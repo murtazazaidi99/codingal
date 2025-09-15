@@ -3,7 +3,7 @@ age="17" #int,number
 height="5.9"#float
 isstudent=False#boolean
 print("hello my name",name)
-print("i am ",age"year old")
+print("i am " ,age,"year old")
 print("my height is ",height)
 print("my is student",isstudent)
 
