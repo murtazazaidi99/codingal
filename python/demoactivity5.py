@@ -29,3 +29,9 @@ draw_polygon(3, 100, "red")
 move(200, 0)
 draw_polygon(6, 70, "blue")
 turtle.done()
+
+
+
+
+# Ask the user to guess
+# Computer chooses a random number between 1 and 10
