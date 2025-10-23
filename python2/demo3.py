@@ -5,7 +5,7 @@ print(abc[5])
 xyz=['badman','ronaldo','messi','zaidi',]
 
 print(xyz[2])
-print(xyz[4])
+print(xyz[1])
 
 
 print(len(abc))
