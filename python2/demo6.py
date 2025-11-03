@@ -7,3 +7,5 @@ class A:
     def J(self):
         print("hello")
 obj=A ("zaidi",17)
+
+
