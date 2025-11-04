@@ -27,8 +27,6 @@ class Library:
             print("Book has been returned.")
         else:
             print("That book wasn't borrowed from us.")
-
-
 if __name__ == '__main__':
     books = Library([
         'Python', 'Rich Dad Poor Dad', 'Harry Potter', 'C++ Basics',
