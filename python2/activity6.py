@@ -1,8 +1,16 @@
-class T:
-    def __init__(self,name,year)
-    self.name=name
-    self.year=year
-    print('welcome,my name is',self.name,self.year)
-    def J(self):
-        print('welcome')
-obj=T("ali",11)
+class ExpressionSolver:
+    def __init__(self, expression):
+        self.expression = expression  # store the expression
+
+    def solve(self):
+        try:
+            result = eval(self.expression)  # evaluate the expression
+            return result
+        except Exception as t:
+            return f"Error:" {}
+
+    def display_result(self):
+        result = self.solve()
+        print(f"The result of '{self.expression}' is: {result}")
+
+

@@ -1,20 +1,3 @@
-class A:
-    def __init__(self,age,name):
-        self.age=age
-        self.name=name
-        print('hello my name is',self.name)
-
-    def J(self):
-        print("hello")
-obj=A ("zaidi",17)
-
-
-
-
-
-
-
-
 class bike:
     def __init__(self,brand,name,color):
         self.brand=brand
@@ -28,3 +11,11 @@ bike1=bike("RIM","BLACK","honda")
 bike1.show()
     
 class student:
+class Student:
+    def __init__(self,name,marks):
+        self.name=name
+        self.marks=marks
+
+s1=Student("zaidi",17)
+print(s1.name)
+print(s1.marks)
