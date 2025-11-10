@@ -10,8 +10,9 @@ class bike:
 bike1=bike("RIM","BLACK","honda")
 bike1.show()
     
-class student:
-class Student:
+
+   
+ class Student:
     def __init__(self,name,marks):
         self.name=name
         self.marks=marks
