@@ -5,3 +5,6 @@ class bird:
 class eagle(bird):
     def speak(self):
         print("eagle says:hello!")
+
+for bird in [eagle(),bird()]:
+    bird.speak()
