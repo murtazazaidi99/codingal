@@ -39,3 +39,4 @@ c=child()
 c.quality()
 c.nature()
 c.talent()
+
