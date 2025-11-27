@@ -54,7 +54,6 @@ with open("sample.txt","w") as f:
 def remove_duplicates(input_file,output_file):
     with open (input_file,"r") as f:
         lines=f.readlines()
-
 #remove duplites lines(order preserved)
 unique_lines=list(dict.fromkeys(lines))
 
