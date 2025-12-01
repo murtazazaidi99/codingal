@@ -6,8 +6,8 @@ def generate_password():
     length = int(length_entry.get())
     characters = string.ascii_letters + string.digits + string.punctuation
     password = "".join(random.choice(characters) for _ in range(length))
-    password_entry.delete(5, tk.END)
-    password_entry.insert(10, password)
+    password_entry.delete(14, tk.END)
+    password_entry.insert(20, password)
 
 #  Window
 root = tk.Tk()

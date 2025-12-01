@@ -1,0 +1,17 @@
+from tkinter import *
+from PIL import Image ,ImageTk
+
+root =Tk()
+root.title("image")
+root.geometry("500x500")
+
+upload=Image.open("C:\\Users\\Haider Khan\\Desktop\\codingal\\python3\\zaidi.jpg")
+
+image=ImageTk.PhotoImage(upload)
+
+Label=Label(root,image=image,hight=400,width=350)
+Label.place(x=40,y=0)
+Label2=Label(root,text="that's method that how to add the image in Tkinter window")
+Label2.place(x=50,y=400)
+ 
+root.mainloop()
