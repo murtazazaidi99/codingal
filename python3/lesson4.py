@@ -7,19 +7,19 @@ root = Tk()
 
 root.title('image')
 
-root.geometry('400x400')
+root.geometry('1500x1500')
 
 upload = Image.open(r"C:\Users\Haider Khan\Desktop\codingal\python3\zaidi.jpg")
 
 image = ImageTk.PhotoImage(upload)
 
-label = Label(root, image=image, height=350, width=300)
+label = Label(root, image=image, height=500, width=450)
 
 label.place(x=50, y=0)
 
 label2 = Label(root, text="This is how you add image in Tkinter Window")
 
-label2.place(x=40, y=360)
+label2.place(x=100, y=460)
 
 root.mainloop()
 
