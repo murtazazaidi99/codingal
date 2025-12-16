@@ -11,8 +11,8 @@ def sum(n):
 def arraySum(a):
     sum=0
     for i in a:
-        sum =sum +!
+        sum = sum +!
 
     return(sum)
-    a=[12,14,16]
+    a=[12,2,14,3,16]
 arraySum(a)
