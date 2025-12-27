@@ -9,9 +9,8 @@ if number>1:
             break
     else:
         print(number,"is prime")
- else:
+else:
     print(number,"is not prime")
-
 #PRIME_SIEVE
 def primeSieve(n):
     prime = [True for i in range (n+1)]
